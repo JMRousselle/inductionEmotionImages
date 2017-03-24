@@ -1,0 +1,155 @@
+# -*- coding: utf-8 -*-
+
+# Form implementation generated from reading ui file 'inductionEmotionImagesGuiSrcDecision.ui'
+#
+# Created: Thu Mar 23 09:44:35 2017
+#      by: PyQt4 UI code generator 4.11.3
+#
+# WARNING! All changes made in this file will be lost!
+
+from PyQt4 import QtCore, QtGui
+
+try:
+    _fromUtf8 = QtCore.QString.fromUtf8
+except AttributeError:
+    def _fromUtf8(s):
+        return s
+
+try:
+    _encoding = QtGui.QApplication.UnicodeUTF8
+    def _translate(context, text, disambig):
+        return QtGui.QApplication.translate(context, text, disambig, _encoding)
+except AttributeError:
+    def _translate(context, text, disambig):
+        return QtGui.QApplication.translate(context, text, disambig)
+
+class Ui_Dialog(object):
+    def setupUi(self, Dialog):
+        Dialog.setObjectName(_fromUtf8("Dialog"))
+        Dialog.resize(1024, 800)
+        self.verticalLayout = QtGui.QVBoxLayout(Dialog)
+        self.verticalLayout.setObjectName(_fromUtf8("verticalLayout"))
+        self.horizontalLayout = QtGui.QHBoxLayout()
+        self.horizontalLayout.setObjectName(_fromUtf8("horizontalLayout"))
+        spacerItem = QtGui.QSpacerItem(40, 20, QtGui.QSizePolicy.Expanding, QtGui.QSizePolicy.Minimum)
+        self.horizontalLayout.addItem(spacerItem)
+        self.label_periode = QtGui.QLabel(Dialog)
+        font = QtGui.QFont()
+        font.setBold(True)
+        font.setWeight(75)
+        self.label_periode.setFont(font)
+        self.label_periode.setText(_fromUtf8(""))
+        self.label_periode.setObjectName(_fromUtf8("label_periode"))
+        self.horizontalLayout.addWidget(self.label_periode)
+        spacerItem1 = QtGui.QSpacerItem(40, 20, QtGui.QSizePolicy.Expanding, QtGui.QSizePolicy.Minimum)
+        self.horizontalLayout.addItem(spacerItem1)
+        self.pushButton_historique = QtGui.QPushButton(Dialog)
+        self.pushButton_historique.setObjectName(_fromUtf8("pushButton_historique"))
+        self.horizontalLayout.addWidget(self.pushButton_historique)
+        self.verticalLayout.addLayout(self.horizontalLayout)
+        spacerItem2 = QtGui.QSpacerItem(20, 40, QtGui.QSizePolicy.Minimum, QtGui.QSizePolicy.Expanding)
+        self.verticalLayout.addItem(spacerItem2)
+        self.horizontalLayout_3 = QtGui.QHBoxLayout()
+        self.horizontalLayout_3.setObjectName(_fromUtf8("horizontalLayout_3"))
+        spacerItem3 = QtGui.QSpacerItem(40, 20, QtGui.QSizePolicy.Expanding, QtGui.QSizePolicy.Minimum)
+        self.horizontalLayout_3.addItem(spacerItem3)
+        self.label_decision = QtGui.QLabel(Dialog)
+        font = QtGui.QFont()
+        font.setBold(True)
+        font.setWeight(75)
+        self.label_decision.setFont(font)
+        self.label_decision.setAlignment(QtCore.Qt.AlignCenter)
+        self.label_decision.setObjectName(_fromUtf8("label_decision"))
+        self.horizontalLayout_3.addWidget(self.label_decision)
+        spacerItem4 = QtGui.QSpacerItem(40, 20, QtGui.QSizePolicy.Expanding, QtGui.QSizePolicy.Minimum)
+        self.horizontalLayout_3.addItem(spacerItem4)
+        self.verticalLayout.addLayout(self.horizontalLayout_3)
+        spacerItem5 = QtGui.QSpacerItem(20, 40, QtGui.QSizePolicy.Minimum, QtGui.QSizePolicy.Expanding)
+        self.verticalLayout.addItem(spacerItem5)
+        self.horizontalLayout_4 = QtGui.QHBoxLayout()
+        self.horizontalLayout_4.setObjectName(_fromUtf8("horizontalLayout_4"))
+        self.textEdit_ressenti = QtGui.QTextEdit(Dialog)
+        self.textEdit_ressenti.setMinimumSize(QtCore.QSize(800, 100))
+        self.textEdit_ressenti.setMaximumSize(QtCore.QSize(800, 100))
+        self.textEdit_ressenti.setObjectName(_fromUtf8("textEdit_ressenti"))
+        self.horizontalLayout_4.addWidget(self.textEdit_ressenti)
+        self.verticalLayout.addLayout(self.horizontalLayout_4)
+        spacerItem6 = QtGui.QSpacerItem(20, 40, QtGui.QSizePolicy.Minimum, QtGui.QSizePolicy.Expanding)
+        self.verticalLayout.addItem(spacerItem6)
+        self.horizontalLayout_6 = QtGui.QHBoxLayout()
+        self.horizontalLayout_6.setObjectName(_fromUtf8("horizontalLayout_6"))
+        spacerItem7 = QtGui.QSpacerItem(40, 20, QtGui.QSizePolicy.Expanding, QtGui.QSizePolicy.Minimum)
+        self.horizontalLayout_6.addItem(spacerItem7)
+        self.label_2 = QtGui.QLabel(Dialog)
+        font = QtGui.QFont()
+        font.setBold(True)
+        font.setWeight(75)
+        self.label_2.setFont(font)
+        self.label_2.setObjectName(_fromUtf8("label_2"))
+        self.horizontalLayout_6.addWidget(self.label_2)
+        spacerItem8 = QtGui.QSpacerItem(40, 20, QtGui.QSizePolicy.Expanding, QtGui.QSizePolicy.Minimum)
+        self.horizontalLayout_6.addItem(spacerItem8)
+        self.verticalLayout.addLayout(self.horizontalLayout_6)
+        spacerItem9 = QtGui.QSpacerItem(20, 40, QtGui.QSizePolicy.Minimum, QtGui.QSizePolicy.Expanding)
+        self.verticalLayout.addItem(spacerItem9)
+        self.horizontalLayout_7 = QtGui.QHBoxLayout()
+        self.horizontalLayout_7.setObjectName(_fromUtf8("horizontalLayout_7"))
+        spacerItem10 = QtGui.QSpacerItem(40, 20, QtGui.QSizePolicy.Expanding, QtGui.QSizePolicy.Minimum)
+        self.horizontalLayout_7.addItem(spacerItem10)
+        self.radioButton_adj1 = QtGui.QRadioButton(Dialog)
+        self.radioButton_adj1.setObjectName(_fromUtf8("radioButton_adj1"))
+        self.horizontalLayout_7.addWidget(self.radioButton_adj1)
+        self.radioButton_adj2 = QtGui.QRadioButton(Dialog)
+        self.radioButton_adj2.setObjectName(_fromUtf8("radioButton_adj2"))
+        self.horizontalLayout_7.addWidget(self.radioButton_adj2)
+        self.radioButton_adj3 = QtGui.QRadioButton(Dialog)
+        self.radioButton_adj3.setObjectName(_fromUtf8("radioButton_adj3"))
+        self.horizontalLayout_7.addWidget(self.radioButton_adj3)
+        self.radioButton_adj4 = QtGui.QRadioButton(Dialog)
+        self.radioButton_adj4.setObjectName(_fromUtf8("radioButton_adj4"))
+        self.horizontalLayout_7.addWidget(self.radioButton_adj4)
+        self.radioButton_adj5 = QtGui.QRadioButton(Dialog)
+        self.radioButton_adj5.setObjectName(_fromUtf8("radioButton_adj5"))
+        self.horizontalLayout_7.addWidget(self.radioButton_adj5)
+        self.radioButton_adj6 = QtGui.QRadioButton(Dialog)
+        self.radioButton_adj6.setObjectName(_fromUtf8("radioButton_adj6"))
+        self.horizontalLayout_7.addWidget(self.radioButton_adj6)
+        self.radioButton_adj7 = QtGui.QRadioButton(Dialog)
+        self.radioButton_adj7.setObjectName(_fromUtf8("radioButton_adj7"))
+        self.horizontalLayout_7.addWidget(self.radioButton_adj7)
+        self.radioButton_adj8 = QtGui.QRadioButton(Dialog)
+        self.radioButton_adj8.setObjectName(_fromUtf8("radioButton_adj8"))
+        self.horizontalLayout_7.addWidget(self.radioButton_adj8)
+        self.radioButton_adj9 = QtGui.QRadioButton(Dialog)
+        self.radioButton_adj9.setObjectName(_fromUtf8("radioButton_adj9"))
+        self.horizontalLayout_7.addWidget(self.radioButton_adj9)
+        spacerItem11 = QtGui.QSpacerItem(40, 20, QtGui.QSizePolicy.Expanding, QtGui.QSizePolicy.Minimum)
+        self.horizontalLayout_7.addItem(spacerItem11)
+        self.verticalLayout.addLayout(self.horizontalLayout_7)
+        spacerItem12 = QtGui.QSpacerItem(20, 40, QtGui.QSizePolicy.Minimum, QtGui.QSizePolicy.Expanding)
+        self.verticalLayout.addItem(spacerItem12)
+        self.buttonBox = QtGui.QDialogButtonBox(Dialog)
+        self.buttonBox.setOrientation(QtCore.Qt.Horizontal)
+        self.buttonBox.setStandardButtons(QtGui.QDialogButtonBox.Cancel|QtGui.QDialogButtonBox.Ok)
+        self.buttonBox.setObjectName(_fromUtf8("buttonBox"))
+        self.verticalLayout.addWidget(self.buttonBox)
+
+        self.retranslateUi(Dialog)
+        QtCore.QMetaObject.connectSlotsByName(Dialog)
+
+    def retranslateUi(self, Dialog):
+        Dialog.setWindowTitle(_translate("Dialog", "Dialog", None))
+        self.pushButton_historique.setText(_translate("Dialog", "Historique", None))
+        self.label_decision.setText(_translate("Dialog", "Décrivez en quelques lignes ce que vous ressentez après la vue de ces images. \n"
+"Vous disposez de 5 min. Ecrivez de manière rapide et intuitive.", None))
+        self.label_2.setText(_translate("Dialog", "Cocher l’adjectif qui décrit au mieux le sentiment ressenti lors de la lecture du texte (1 choix possible et obligatoire) :", None))
+        self.radioButton_adj1.setText(_translate("Dialog", "RadioButton", None))
+        self.radioButton_adj2.setText(_translate("Dialog", "RadioButton", None))
+        self.radioButton_adj3.setText(_translate("Dialog", "RadioButton", None))
+        self.radioButton_adj4.setText(_translate("Dialog", "RadioButton", None))
+        self.radioButton_adj5.setText(_translate("Dialog", "RadioButton", None))
+        self.radioButton_adj6.setText(_translate("Dialog", "RadioButton", None))
+        self.radioButton_adj7.setText(_translate("Dialog", "RadioButton", None))
+        self.radioButton_adj8.setText(_translate("Dialog", "RadioButton", None))
+        self.radioButton_adj9.setText(_translate("Dialog", "RadioButton", None))
+
